@@ -1,16 +1,22 @@
 Military Asset Management System (MAMS)
 
 📌 Overview
+
 The Military Asset Management System (MAMS) is a secure, role-based platform designed to help military personnel track, manage, and optimize the movement, assignment, and expenditure of critical assets (vehicles, weapons, ammunition, etc.) across multiple bases.
 
 🔹 Key Features:
 ✔ Dashboard – Real-time asset metrics (opening/closing balances, net movements, assignments, expenditures).
+
 ✔ Purchases – Record & track new asset acquisitions.
+
 ✔ Transfers – Manage asset movements between bases with full history.
+
 ✔ Assignments & Expenditures – Assign assets to personnel & log usage.
+
 ✔ Role-Based Access Control (RBAC) – Secure permissions for Admins, Base Commanders, and Logistics Officers.
 
 🚀 Technologies Used
+
 Frontend
 React (Component-based UI)
 
@@ -86,11 +92,14 @@ Open in browser:
 
 text
 http://localhost:5173
+
 🔐 Role-Based Access Control (RBAC)
+
 Role	Permissions
 Admin	Full system access (manage users, roles, all bases).
 Base Commander	View & manage assets for assigned base(s). Approve transfers.
 Logistics Officer	Record purchases, transfers, assignments, and expenditures for assigned base(s).
+
 📊 Database Schema Overview
 https://via.placeholder.com/600x400?text=MAMS+Database+Schema (Placeholder: Actual ER diagram to be added)
 
